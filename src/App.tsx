@@ -17,7 +17,7 @@ function App() {
   const { logout } = useLogout();
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/clean-architecture-store/">
       <div className="max-w-[1280px] mx-auto pb-6">
         <header className="h-14 flex items-center justify-between  text-sm text-slate-500">
           <Link to={"/"}>
