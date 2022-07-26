@@ -22,7 +22,7 @@ jobs:
       # 单个步骤，带有名称，带有参数
       - name: build and deploy
         run: |
-          npm ci
+          npm install
           npm run build
           cd dist
           git config --global user.name "juetan"
