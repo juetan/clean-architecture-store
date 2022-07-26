@@ -3,6 +3,8 @@
 
 从文章的内容中我收获很多，纸上得来终觉浅，于是我实践了文章中的饼干商店。本项目实践思路与文章大体一致，但不同的是我用`vite`启动的项目，并用`tailwind.css`作为样式库，同时部分页面略有改动。
 
+预览地址：[https://juetan.github.io/clean-architecture-store/](https://juetan.github.io/clean-architecture-store/)。
+
 # 页面预览
 ![首页](./public/home.png)
 ![购物车](./public/cart.png)
@@ -15,11 +17,11 @@ git clone https://github.com/juetan/clean-architecture-store.git
 ```
 3. 进入到项目目录，安装依赖
 ```
-yarn
+npm install
 ```
 4. 启动项目
 ```
-yarn dev
+npm run dev
 ```
 5. 打开浏览器，访问`localhost:5173`即可。
 
