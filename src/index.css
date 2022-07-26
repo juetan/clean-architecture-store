@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer componets {
+  body .btn {
+    @apply h-8 border border-blue-500 leading-[32px] rounded-sm;
+  }
+
+  body .input {
+    @apply h-8 border border-slate-100;
+  }
+}
+
+body {
+  font-size: 14px;
+}
+html {
+  font-size: 16px;
+}
